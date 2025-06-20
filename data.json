@@ -1,0 +1,52 @@
+{
+  "colaboradores": [
+    {
+      "id": "rcamayop",
+      "estado": "Activo",
+      "cargo": "Gerente de Administración",
+      "nombres": "Rafael Camayo Piñas",
+      "telefono": "+51964879137",
+      "email": "rcamayo@cajahuancayo.com.pe",
+      "whatsapp": "+51964879137",
+      "url_website": "https://www.cajahuancayo.com.pe/",
+      "foto_id": "rafael",
+      "redes_sociales": {
+        "linkedin": "https://pe.linkedin.com/in/rafael-camayo-piñas",
+        "facebook": "https://www.facebook.com/CajaHuancayo",
+        "tiktok": "https://www.tiktok.com/@cajahuancayo"
+      }
+    },
+    {
+      "id": "jsolises",
+      "estado": "Inactivo",
+      "cargo": "Director Ejecutivo",
+      "nombres": "Jorge Solís Espinoza",
+      "telefono": "+51964000000",
+      "email": "jsolis@cajahuancayo.com.pe",
+      "whatsapp": "+51964000000",
+      "url_website": "https://www.cajahuancayo.com.pe/",
+      "foto_id": "jorge",
+      "redes_sociales": {
+        "linkedin": "https://pe.linkedin.com/company/caja-huancayo",
+        "facebook": "https://www.facebook.com/CajaHuancayo",
+        "tiktok": "https://www.tiktok.com/@cajahuancayo"
+      }
+    },
+    {
+      "id": "rpacheco",
+      "estado": "Activo",
+      "cargo": "Gerente de Créditos",
+      "nombres": "Ramiro Arana Pacheco",
+      "telefono": "+51954951199",
+      "email": "rpacheco@cajahuancayo.com.pe",
+      "whatsapp": "+51954951199",
+      "url_website": "https://www.cajahuancayo.com.pe/",
+      "foto_id": "ramiro",
+      "redes_sociales": {
+        "linkedin": "https://pe.linkedin.com/company/caja-huancayo",
+        "facebook": "https://www.facebook.com/CajaHuancayo",
+        "tiktok": "https://www.tiktok.com/@cajahuancayo"
+      }
+    }
+  ]
+}

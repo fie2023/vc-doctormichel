@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación - Caja Huancayo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- QR Code Library -->
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="head">
+                <!-- QR Code -->
+                <div class="qr-code-section">
+                    <div id="qrcode"></div>
+                </div>
+                
+                <!-- Logo -->
+                <div class="logo-section">
+                    <img src="./img/logo-rojo.png" alt="Caja Huancayo Logo" class="logo">
+                    <!-- <h2 class="company-name">CAJA HUANCAYO</h2> -->
+                </div>
+                <!-- Divider -->
+                <div class="divider"></div>
+            </div>
+
+            
+            <!-- Profile Info -->
+            <div class="profile-info">
+                <div class="profile-picture-container">
+                    <img id="profile-picture" src="" alt="Foto de Perfil" class="profile-picture">
+                </div>
+                
+                <h1 id="profile-name" class="name"></h1>
+                <h3 id="profile-position" class="position"></h3>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a id="profile-phone" href=""></a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a id="profile-email" href=""></a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <a id="profile-website" href="" target="_blank"></a>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a id="profile-whatsapp" href="" target="_blank" class="social-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a id="profile-linkedin" href="" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a id="profile-facebook" href="" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a id="profile-tiktok" href="" target="_blank" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-footer">
+                <p>Caja Huancayo, ¡La Caja del Perú!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
