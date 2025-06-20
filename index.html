@@ -6,8 +6,7 @@
     <title>Tarjeta de Presentación - Caja Huancayo</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- QR Code Library -->
-    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
 </head>
 <body>
     <div class="container">
@@ -15,7 +14,9 @@
             <div class="head">
                 <!-- QR Code -->
                 <div class="qr-code-section">
-                    <div id="qrcode"></div>
+                    <div class="qr-code" id="qr-code">
+                        <!-- El QR se generará aquí automáticamente -->
+                    </div>
                 </div>
                 
                 <!-- Logo -->
@@ -77,5 +78,7 @@
     </div>
     
     <script src="script.js"></script>
+    <!-- QR Code Library -->
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 </body>
 </html>

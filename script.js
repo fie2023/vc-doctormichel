@@ -142,36 +142,34 @@ async function loadProfileData() {
 function generateQRCode(collaboratorId) {
     try {
         // Obtener el elemento contenedor del QR
-        const qrContainer = document.getElementById('qrcode');
-        qrContainer.innerHTML = ''; // Limpiar el contenedor
+        const qrCodeElement = document.getElementById('qr-code');
+        
+        // Verificar si el elemento existe
+        if (!qrCodeElement) {
+            console.error('El elemento con ID "qr-code" no existe en el documento');
+            return;
+        }
+        
+        // Limpiar el contenedor antes de generar un nuevo QR
+        qrCodeElement.innerHTML = '';
         
         // Construir la URL completa con el formato ?id=[id]
         const currentUrl = window.location.href.split('?')[0]; // Obtener la URL base sin parámetros
         const fullUrl = `${currentUrl}?id=${collaboratorId}`;
         
         // Generar el código QR
-        new QRCode(qrContainer, {
+        new QRCode(qrCodeElement, {
             text: fullUrl,
-            width: 128,
-            height: 128,
-            colorDark: "#E2001A",  // Color rojo de Caja Huancayo (--primary-color)
-            colorLight: "#ffffff",
+            width: 150,
+            height: 150,
+            colorDark: "#444444",  // Azul oscuro
+            colorLight: "#F5F5F5",
             correctLevel: QRCode.CorrectLevel.H
         });
-               
-        // Ya no necesitamos eventos para el tooltip
         
         console.log("QR generado correctamente con la URL:", fullUrl);
     } catch (error) {
         console.error("Error al generar el QR:", error);
-        
-        // Fallback simple si falla la generación
-        qrContainer.innerHTML = `
-            <div style="width: 150px; height: 150px; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #f8f8f8; border-radius: 8px;">
-                <div style="color: #E2001A; font-size: 14px; text-align: center; margin-bottom: 8px;">Escanea para ver</div>
-                <div style="color: #444; font-size: 12px; text-align: center; word-break: break-all; padding: 0 10px;">${fullUrl}</div>
-            </div>
-        `;
     }
 }
 

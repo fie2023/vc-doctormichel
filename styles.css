@@ -32,6 +32,7 @@ body {
     max-width: 400px;
     perspective: 1000px;
     background-color: var(--background);
+    border-radius: var(--border-radius);
 }
 
 .card {
@@ -54,22 +55,20 @@ body {
     padding-bottom: 16px;
     position: relative;
     z-index: 1;
+    /* background-color: var(--primary-color); */
 }
 
-#qrcode {
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
-    border: 3px solid var(--white);
-    overflow: hidden;
+.qr-code {
+    width: 180px; /* Aumenté el tamaño */
+    height: 180px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: var(--background);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    position: relative;
+    align-items: center;
 }
 
 /* Logo Section */
@@ -207,7 +206,7 @@ body {
 
 .social-icon:hover {
     transform: translateY(-3px);
-    background-color: var(--primary-color);
+    background-color: var(--text-secondary);
     color: var(--white);
     box-shadow: 0 6px 12px rgba(226, 0, 26, 0.2);
 }
