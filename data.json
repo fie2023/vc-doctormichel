@@ -1,51 +1,19 @@
 {
   "colaboradores": [
     {
-      "id": "rcamayop",
+      "id": "abc123",
       "estado": "Activo",
-      "cargo": "Gerente de Administración",
-      "nombres": "Rafael Camayo Piñas",
-      "telefono": "+51964879137",
-      "email": "rcamayo@cajahuancayo.com.pe",
-      "whatsapp": "+51964879137",
-      "url_website": "https://www.cajahuancayo.com.pe/",
-      "foto_id": "rafael",
+      "cargo": "Médico Gastro Enterólogo",
+      "nombres": "Michel Inocente Escobar",
+      "telefono": "+51922266714",
+      "email": "michelito_medico@hotmail.com",
+      "whatsapp": "+51922266714",
+      "url_website": "https://www.cmp.org.pe/",
+      "foto_id": "michel",
       "redes_sociales": {
-        "linkedin": "https://pe.linkedin.com/in/rafael-camayo-piñas",
-        "facebook": "https://www.facebook.com/CajaHuancayo",
-        "tiktok": "https://www.tiktok.com/@cajahuancayo"
-      }
-    },
-    {
-      "id": "jsolises",
-      "estado": "Inactivo",
-      "cargo": "Director Ejecutivo",
-      "nombres": "Jorge Solís Espinoza",
-      "telefono": "+51964000000",
-      "email": "jsolis@cajahuancayo.com.pe",
-      "whatsapp": "+51964000000",
-      "url_website": "https://www.cajahuancayo.com.pe/",
-      "foto_id": "jorge",
-      "redes_sociales": {
-        "linkedin": "https://pe.linkedin.com/company/caja-huancayo",
-        "facebook": "https://www.facebook.com/CajaHuancayo",
-        "tiktok": "https://www.tiktok.com/@cajahuancayo"
-      }
-    },
-    {
-      "id": "rpacheco",
-      "estado": "Activo",
-      "cargo": "Gerente de Créditos",
-      "nombres": "Ramiro Arana Pacheco",
-      "telefono": "+51954951199",
-      "email": "rpacheco@cajahuancayo.com.pe",
-      "whatsapp": "+51954951199",
-      "url_website": "https://www.cajahuancayo.com.pe/",
-      "foto_id": "ramiro",
-      "redes_sociales": {
-        "linkedin": "https://pe.linkedin.com/company/caja-huancayo",
-        "facebook": "https://www.facebook.com/CajaHuancayo",
-        "tiktok": "https://www.tiktok.com/@cajahuancayo"
+        "linkedin": "https://pe.linkedin.com/company/colegio-médico-del-perú",
+        "facebook": "https://www.facebook.com/photo.php?fbid=2906009352987525&id=1704579183130554&set=a.1704592606462545",
+        "tiktok": "https://www.tiktok.com/discover/colegio-medico-perú"
       }
     }
   ]

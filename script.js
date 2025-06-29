@@ -61,7 +61,7 @@ async function loadProfileData() {
     profileData = await loadProfileDataFromJSON();
     
     // Cargar foto de perfil
-    document.getElementById('profile-picture').src = `img/fotos/${profileData.foto_id}.jpg`;
+    document.getElementById('profile-picture').src = `img/fotos/${profileData.foto_id}.png`;
     
     // Cargar nombre y cargo
     document.getElementById('profile-name').textContent = profileData.nombres;

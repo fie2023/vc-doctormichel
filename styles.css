@@ -1,8 +1,8 @@
 :root {
     --primary-color: #F5F5F5;
-    --text-primary: #444444;
-    --text-secondary: #676565;
-    --background: #E2001A;
+    --text-primary: #F8AD1D;
+    --text-secondary: #6A105A;
+    --background: #6A105A;
     --white: #FFFFFF;
     --card-padding: 20px;
     --border-radius: 12px;
@@ -84,7 +84,7 @@ body {
 }
 
 .logo {
-    height: 60px;
+    height: 150px;
     margin-right: 10px;
     object-fit: contain;
 }
@@ -106,7 +106,7 @@ body {
 /* Divider */
 .divider {
     height: 2px;
-    background: linear-gradient(to right, transparent, rgba(226, 0, 26, 0.3), transparent);
+    background: linear-gradient(to right, transparent, rgba(217, 236, 43, 0.3), transparent);
     margin: 15px 0;
     position: relative;
     z-index: -10;
