@@ -15,6 +15,22 @@
         "facebook": "https://www.facebook.com/photo.php?fbid=2906009352987525&id=1704579183130554&set=a.1704592606462545",
         "tiktok": "https://www.tiktok.com/discover/colegio-medico-perú"
       }
+    },
+    {
+      "id": "drajaneth",
+      "estado": "Activo",
+      "cargo": "Especialista Medicina Física y Rehabilitación",
+      "nombres": "Janeth Rosalia Inocente Escobar",
+      "telefono": "+51964956396",
+      "email": "michelito_medico@hotmail.com",
+      "whatsapp": "+51964956396",
+      "url_website": "http://sieval.sanbartolome.gob.pe/transparencia/transparencia.html",
+      "foto_id": "yani",
+      "redes_sociales": {
+        "linkedin": "https://pe.linkedin.com/company/colegio-médico-del-perú",
+        "facebook": "https://www.facebook.com/p/Hospital-San-Bartolomé-Página-Oficial-100064650701189",
+        "tiktok": "https://www.tiktok.com/discover/colegio-medico-perú"
+      }
     }
   ]
 }
